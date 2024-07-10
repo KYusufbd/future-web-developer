@@ -63,12 +63,6 @@
     margin: 0 auto;
 }
 
-.sect {
-    margin: 74px auto;
-    gap: 48px;
-    color: var(--col-1);
-}
-
 .btn {
     font-size: 20px;
     text-align: center;
@@ -97,6 +91,11 @@
     align-items: center;
     gap: 24px;
     text-align: center;
+    color: var(--col-1);
+}
+
+.sect {
+    margin: 74px auto;
     color: var(--col-1);
 }
 
@@ -253,4 +252,38 @@ header {
 /* Style for Next Target Section */
 .nextar-card img {
     height: 108px;
+}
+
+/* Style for Support section */
+.support {
+    text-align: center;
+    height: 314px;
+    background: url(../assets/images/handshake.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.support h1, .support p {
+    color: #fff;
+}
+
+.support form {
+    height: 58px;
+    width: max-content;
+}
+
+.support input[type="submit"] {
+    width: 120px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--col-1);
+}
+
+.support input[type="text"] {
+    width: 548px;
+    border-radius: 16px;
+    padding: 4px 16px;
 }
