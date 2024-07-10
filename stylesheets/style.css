@@ -265,8 +265,16 @@ header {
     border-radius: 16px;
 }
 
-.support h1, .support p {
-    color: #fff;
+.support h1 {
+    color: #ffffff;
+}
+
+.support p {
+    max-width: 606px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff9A;
+
 }
 
 .support form {
